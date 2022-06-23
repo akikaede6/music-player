@@ -18,6 +18,18 @@ set(PROJECT_SOURCES
         main.cpp
         mainwindow.cpp
         mainwindow.h
+        playercontrol.cpp
+        playercontrol.h
+        playerslider.h
+        playerslider.cpp
+        playersound.h
+        playersound.cpp
+        playerfilelist.h
+        playerfilelist.cpp
+        playerfileinfo.h
+        playerfileinfo.cpp
+        playerfilemodel.h
+        playerfilemodel.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
