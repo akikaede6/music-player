@@ -16,20 +16,22 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
 set(PROJECT_SOURCES
         main.cpp
-        mainwindow.cpp
-        mainwindow.h
-        playercontrol.cpp
-        playercontrol.h
-        playerslider.h
-        playerslider.cpp
-        playersound.h
-        playersound.cpp
-        playerfilelist.h
-        playerfilelist.cpp
-        playerfileinfo.h
-        playerfileinfo.cpp
-        playerfilemodel.h
-        playerfilemodel.cpp
+        ui/mainwindow.cpp
+        ui/mainwindow.h
+        ui/playercontrol.cpp
+        ui/playercontrol.h
+        ui/playerslider.h
+        ui/playerslider.cpp
+        ui/playersound.h
+        ui/playersound.cpp
+        ui/playerfilelist.h
+        ui/playerfilelist.cpp
+        ui/playerfileinfo.h
+        ui/playerfileinfo.cpp
+        model/playerfilemodel.h
+        model/playerfilemodel.cpp
+        ui/centerwidget.cpp
+        ui/centerwidget.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
